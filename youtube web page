@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone - web prep</title>
+</head>
+<body>
+   <div id="sidebar">
+    <button class="menu">
+        <div class="iconsidebar">
+        <ion-icon name="menu"></ion-icon>
+   </div>
+</button> 
+<button class="explorer">
+    <div class="iconsidebar">
+         <ion-icon name="home"></ion-icon> 
+         <p>Home</p>
+    </div></button>
+<button class="explorer">
+    <div class="iconsidebar">
+        <ion-icon name="compass"></ion-icon>
+        <p>Shorts</p>
+    </div>
+</button>
+<button class="explorer">
+<div class="iconsidebar">
+        <ion-icon name="briefcase"></ion-icon>
+        <p>library</p>
+    </div>
+</button>
+</div>
+<div id="main">
+    
+    <div id="topbar"><img src="assets/yt-logo.svg" alt="logo Youtube" id=logo>
+     
+        <div id="ricerca"> 
+       <input id="text" type="text" placeholder="Search on Youtube">
+       <button class="lente"><ion-icon name="search"></ion-icon></button>
+       <button class="btn"><ion-icon name="mic"></ion-icon></button>
+        </div>
+        <div id="notifica">
+        <button class="btn"><ion-icon name="videocam"></ion-icon></button>
+        <button class="btn"><ion-icon name="notifications-outline"></ion-icon></button>
+         </div>
+     </div >
+     
+<div id="interessi">
+
+<div class="content"> <img class="img" src="assets/epicode_thumb.png" alt="thumb">
+   <div class="thumb"> <img class="logo" src="assets/epicode-logo.png" alt="logo"> 
+    <h3 class="title">Title</h3>
+    <p class="paragrafo">Description</p>
+    </div>
+   </div>
+
+   <div class="content"> <img class="img" src="assets/epicode_thumb.png" alt="thumb">
+    <div class="thumb"> <img class="logo" src="assets/epicode-logo.png" alt="logo"> 
+     <h3 class="title">Title</h3>
+     <p class="paragrafo">Description</p>
+     </div>
+ </div>
+
+ <div class="content"> <img class="img" src="assets/epicode_thumb.png" alt="thumb">
+    <div class="thumb"> <img class="logo" src="assets/epicode-logo.png" alt="logo"> 
+     <h3 class="title">Title</h3>
+     <p class="paragrafo">Description</p>
+     </div>
+  </div>
+
+  <div class="content"> <img class="img" src="assets/epicode_thumb.png" alt="thumb">
+    <div class="thumb"> <img class="logo" src="assets/epicode-logo.png" alt="logo"> 
+     <h3 class="title">Title</h3>
+     <p class="paragrafo">Description</p>
+     </div>
+  </div>
+
+  <div class="content"> <img class="img" src="assets/epicode_thumb.png" alt="thumb">
+    <div class="thumb"> <img class="logo" src="assets/epicode-logo.png" alt="logo"> 
+     <h3 class="title">Title</h3>
+     <p class="paragrafo">Description</p>
+     </div>
+  </div>
+
+  <div class="content"> <img class="img" src="assets/epicode_thumb.png" alt="thumb">
+    <div class="thumb"> <img class="logo" src="assets/epicode-logo.png" alt="logo"> 
+     <h3 class="title">Title</h3>
+     <p class="paragrafo">Description</p>
+     </div>
+  </div>
+
+ 
+</div>
+
+
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
